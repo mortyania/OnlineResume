@@ -1,0 +1,295 @@
+* {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-size: 100%;
+	/*border: 0 none;*/
+	outline: 0;
+	padding: 0;
+	margin: 0;	
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body{
+	background-color: #f2f2f2;
+}
+
+.top-menu {
+	background-color: #4d79ff;
+	height: 55px;
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	z-index: 2;
+}
+
+.menu-item {
+	width:17%; 
+	height:55px; 
+	border:0px solid #4d79ff; 
+	float:left;
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 51px;
+	z-index: 3;
+}
+
+.menu-item:hover {
+	background-color: #3366ff;
+}
+
+#active-page{
+	background-color: #3366ff
+}
+
+.main {
+	margin-top: 30px;
+}
+
+.page-title{
+	font-size: 2em;
+	font-style: normal;	
+}
+
+.content-text {
+	font-family: 'Volkhov', serif;
+	font-size: 1em;	
+	margin-top: 15px;
+}
+
+.content-heading {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+
+#content {	
+	margin: auto;
+	margin-top: 80px;
+	width: 75%;		
+}
+
+.headline {
+	display: inline-block;
+	width: 80%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5em;
+}
+
+#index-head{
+	margin-bottom: 100px;
+}
+
+#profile-picture {
+	display: inline-block;
+	width: 20%;
+	float: right;
+}
+
+#profile {
+	width:100%;
+	border-radius: 100%;
+}
+
+#key-skills-title {
+	display: inline-block;
+	width: 50%;
+}
+
+#languages-title{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.content-text td {
+	padding: 5px;
+}
+
+#skills-table {
+	display: inline-block;
+	width: 60%;
+	border: 0px solid black;	
+}
+
+#lang-table {
+	display: inline-block;
+	width: 40%;
+	float: right;
+	text-align: right;
+	border: 0px solid black;
+	
+}
+
+#lang-table table {
+	float: right;
+}
+
+#lang-table td {
+	padding: 0px 0px 15px 40px;
+}
+
+.language-logos {
+	height: 40px;
+	width: 40px;
+}
+
+#education-content{
+	padding: 25px 35px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.edu{
+	padding: 15px;
+	max-height: 80px; 
+    width: 70%; 
+	margin: auto;
+    margin-top: 30px;
+    position: relative;
+    transition:max-height 1s; 
+    -webkit-transition:max-height 2s; 
+    text-align: center;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	background-color: #b3b3b3;
+	font-size: 1.5em;
+}
+.result{
+	font-size: 1em;
+}
+
+#apprenticeship,
+#degree,
+#school{	
+}
+
+#apprenticeship:hover,
+#degree:hover,
+#school:hover{
+	max-height: 1000px;
+	height: auto;
+}
+#school div {
+	margin-bottom: 10px;
+}
+
+.education-text{
+	padding: 15px 10px 0px 10px;
+	font-size: 0.8em;
+}
+
+.education-list{
+	padding: 15px 10px 0px 30px;
+	text-align: left;
+}
+
+.education-list li{
+	margin: 5px 0px;
+}
+
+#work-content{
+	padding: 25px 35px;
+}
+
+.job-desc{
+	text-align: left;
+	padding: 10px;
+	font-size: 0.8em;
+}
+
+.job-bullets{
+	padding: 20px 20px 0px 20px;
+	font-size: 0.9em;
+}
+
+#sub-bullets{
+	padding: 5px 20px;
+}
+
+.job{
+	padding: 15px;
+	max-height: 80px; 
+    width: 70%; 
+	margin: auto;
+    margin-top: 30px;
+    position: relative;
+    transition:max-height 1s; 
+    -webkit-transition:max-height 2s; 
+    text-align: center;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5em;
+	background-color: #b3b3b3;
+}
+
+#ids:hover,
+#sle:hover,
+#lm:hover{
+	max-height: 600px;
+	height: auto;
+}
+
+#hobby-content{
+	margin-top:100px;
+	padding: 20px 50px;
+}
+
+#hobby-content p{
+	font-family: 'Volkhov', serif;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+.img{
+	height: 576px;
+	width: 720px;
+
+}
+
+.video{
+	display:block;
+	width: 720px;
+	height: 576px;
+    margin: 0 auto;
+}
+
+.slickreel{
+	width: 720px;
+	margin: auto;
+	margin-top: 70px;
+}
+
+#description-area{
+	display: table;
+	padding: 15px;
+	max-height: 80px; 
+	height:auto;
+	overflow: hidden;
+	height: auto;
+    width: 70%; 
+	margin: auto;
+    margin-top: 70px;
+    position: relative;
+    transition: max-height 1s; 
+    -webkit-transition: max-height 2s; 
+    text-align: center;
+	font-family: 'Rubik', sans-serif;
+	background-color: #b3b3b3;
+	font-size: 1.5em;
+}
+#slide-zero,
+#slide-one,
+#slide-two{
+	display: table-cell;
+	vertical-align: middle; 
+	text-align: center;
+}
+#slide-one,
+#slide-two{
+	display:none;
+}
