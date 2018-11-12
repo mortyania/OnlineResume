@@ -245,10 +245,14 @@ body{
 	text-align: center;
 }
 
+.home-std {
+	height: 486px;
+	width: 648px;
+}
+
 .img{
 	height: 576px;
 	width: 720px;
-
 }
 
 .video{
