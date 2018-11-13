@@ -235,19 +235,68 @@ body{
 }
 
 #hobby-content{
-	margin-top:100px;
 	padding: 20px 50px;
 }
 
 #hobby-content p{
 	font-family: 'Volkhov', serif;
-	font-size: 1.25em;
+	font-size: 1em;
 	text-align: center;
 }
+.hobby-slider{
+	width: 40%;
+	height: auto;
+	margin: auto;
+	padding: 5px;
+}
+.hobby-img {
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+}
 
-.home-std {
-	height: 486px;
-	width: 648px;
+.desc-logo{
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	width: 30px;
+}
+
+.hobby{
+	padding: 15px;	
+	width: 25%; 
+	margin-top: 30px;
+	max-height: 80px; 
+	transition:max-height 1s; 
+	-webkit-transition:max-height 2s; 	
+	text-align: center;	
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5em;
+	background-color: #b3b3b3;
+}
+
+#top{	
+	margin-left: 15px;
+	position: absolute; 		
+}
+
+#other{
+	float: right; 
+	margin-right:15px;		
+	position: relative;
+}
+
+.hobby-desc{
+	text-align: left;
+	padding: 10px;
+	font-size: 0.8em;
+}
+
+#top:hover,
+#other:hover{
+	max-height: 900px;
+	height: auto;
 }
 
 .img{
